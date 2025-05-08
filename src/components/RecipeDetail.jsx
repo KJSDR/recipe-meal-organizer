@@ -222,9 +222,7 @@ const RecipeDetail = () => {
                   Instructions
                 </h2>
                 
-                <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6 rounded-r">
-                  <p className="italic text-slate-700">"A recipe is a story that ends with a good meal." — Pat Conroy</p>
-                </div>
+                
                 
                 {recipe.instructions ? (
                   <motion.div 

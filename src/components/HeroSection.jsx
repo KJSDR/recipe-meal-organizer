@@ -30,15 +30,7 @@ const HeroSection = () => {
             <span className="block mt-2 text-yellow-400 font-medium">- Sanji</span>
           </p>
           
-          {/* Animated steam elements */}
-          <div className="absolute bottom-10 right-10 opacity-70">
-            <div className="relative">
-              <div className="steam absolute -top-8 left-0 h-6 w-6 rounded-full bg-white"></div>
-              <div className="steam absolute -top-8 left-6 h-6 w-6 rounded-full bg-white" style={{ animationDelay: '0.3s' }}></div>
-              <div className="steam absolute -top-8 left-12 h-6 w-6 rounded-full bg-white" style={{ animationDelay: '0.6s' }}></div>
-              <div className="h-16 w-20 bg-gray-800 rounded-t-3xl"></div>
-            </div>
-          </div>
+          
         </motion.div>
       </div>
     </div>

@@ -29,8 +29,8 @@ function App() {
             </main>
           </AnimatePresence>
           
-          {/* Sanji Themed Footer */}
-          <footer className="bg-slate-900 text-white py-6 mt-12">
+          {/* Sanji Footer */}
+          <footer className="bg-blue-950 text-white py-6 mt-12">
             <div className="container mx-auto px-4 text-center">
               <div className="flex justify-center mb-4">
                 <svg className="w-8 h-8 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -38,11 +38,9 @@ function App() {
                 </svg>
               </div>
               <p className="text-gray-400 text-sm">
-                Sanji's Recipe Book &copy; {new Date().getFullYear()} | A React Final Project
+                Sanji's Recipe Book &copy; {new Date().getFullYear()}
               </p>
-              <p className="text-blue-400 text-xs mt-2">
-                "The best recipes are made with passion and care."
-              </p>
+              
             </div>
           </footer>
         </div>
