@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section w-full mx-auto max-w-7xl content-center">
       {/* Hero background image - use a Sanji image URL */}
       <img 
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIm_VYs6aOx9c6wtyzOcRanH_evMg0L_PIAw&s" 
+        src="https://i.pinimg.com/originals/2d/8f/99/2d8f99a7e3e820202bcd78d686c32f04.gif" 
         alt="Sanji from One Piece cooking" 
         className="hero-image"
       />
@@ -15,21 +15,21 @@ const HeroSection = () => {
       
       
       {/* Hero content */}
-      <div className="hero-content">
+      <div className="hero-content text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
           <h1 className="hero-title">
-            Cook Like <span className="text-blue-400">Sanji</span> of the Straw Hat Pirates
+            Cook Like Sanji
           </h1>
           <p className="hero-subtitle">
             "A cook feeds hungry people, not only when they're hungry for food."
             <span className="block mt-2 text-yellow-400 font-medium">- Sanji</span>
           </p>
           
-          <div className="flex space-x-4">
+          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-8">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link to="/new" className="btn-primary bg-blue-600 hover:bg-blue-700 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
