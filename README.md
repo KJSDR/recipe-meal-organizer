@@ -1,12 +1,24 @@
-# React + Vite
+# Recipe and Meal Prep Organizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+- Lookup recipes from a API which can be add to your plan for breakfast, lunch or dinner of any day of week.
+- Can make your own recipe and add it.
+- Can organize your weekly meals
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
 
-## Expanding the ESLint configuration
+- clone repo
+- npm install
+- go to spoonacular API and signup to get your own key
+- put the key in your own .env file, make sure to call it "VITE_API_KEY"
+- if dependencies dont all work try these
+- npm install react-router-dom @reduxjs/toolkit react-redux
+- npm install -D tailwindcss postcss autoprefixer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## AI Usage
+
+- I use AI to help plan the file/project strucutre. 
+- I needed help with making "createAsyncThunk API" working. 
+- Create starter templates
