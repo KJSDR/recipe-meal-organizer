@@ -16,7 +16,7 @@ const Header = () => {
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="bg-slate-900 text-white shadow-lg z-10 sticky top-0"
+      className="bg-blue-950 text-white shadow-lg z-10 sticky top-0"
     >
       <div className="container mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center">
         <Link to="/" className="flex items-center mb-4 md:mb-0 group">

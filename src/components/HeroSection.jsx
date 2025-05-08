@@ -30,25 +30,7 @@ const HeroSection = () => {
             <span className="block mt-2 text-yellow-400 font-medium">- Sanji</span>
           </p>
           
-          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-8">
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link to="/new" className="btn-primary bg-blue-600 hover:bg-blue-700 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clipRule="evenodd" />
-                </svg>
-                Add New Recipe
-              </Link>
-            </motion.div>
-            
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link to="/meal-planner" className="btn-accent bg-yellow-500 hover:bg-yellow-600 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
-                </svg>
-                Plan Your Meals
-              </Link>
-            </motion.div>
-          </div>
+          
           
           {/* Animated steam elements */}
           <div className="absolute bottom-10 right-10 opacity-70">
