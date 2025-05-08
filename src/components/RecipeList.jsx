@@ -272,7 +272,7 @@ const RecipeList = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="bg-slate-900 py-16 mt-12"
+        className="bg-blue-950 py-16 mt-12"
       >
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
