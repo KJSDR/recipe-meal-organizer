@@ -21,4 +21,6 @@
 
 - I use AI to help plan the file/project strucutre. 
 - I needed help with making "createAsyncThunk API" working. 
-- Create starter templates
+- Create starter templates for files.
+- When having trouble debugging it helped at finding the small thing I couldn't find.
+- Generate icons with ICONVSG
