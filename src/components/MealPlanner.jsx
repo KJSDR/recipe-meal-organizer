@@ -85,37 +85,6 @@ const MealPlanner = () => {
             </motion.button>
           </motion.div>
         </div>
-        
-        {/* Animated flame elements */}
-        <div className="absolute bottom-0 right-0 opacity-70">
-          <div className="relative">
-            <motion.div 
-              animate={{ 
-                y: [0, -15, 0],
-                opacity: [0.5, 1, 0.5]
-              }}
-              transition={{ 
-                repeat: Infinity, 
-                duration: 1.5,
-                ease: "easeInOut" 
-              }}
-              className="absolute -top-10 right-8 h-10 w-6 bg-yellow-400 rounded-full blur-md"
-            ></motion.div>
-            <motion.div 
-              animate={{ 
-                y: [0, -20, 0],
-                opacity: [0.7, 1, 0.7]
-              }}
-              transition={{ 
-                repeat: Infinity, 
-                duration: 2,
-                ease: "easeInOut",
-                delay: 0.3
-              }}
-              className="absolute -top-12 right-14 h-12 w-8 bg-orange-500 rounded-full blur-md"
-            ></motion.div>
-          </div>
-        </div>
       </div>
       
       <motion.div 
@@ -127,7 +96,7 @@ const MealPlanner = () => {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
-              <tr className="bg-slate-800 text-white">
+              <tr className="bg-blue-950 text-yellow-400">
                 <motion.th
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -248,7 +217,7 @@ const MealPlanner = () => {
           "To feed someone is to share a part of your heart with them. That's why everyone who eats my food feels my soul in each bite."
         </p>
         
-        <p className="text-blue-600 font-medium">— Sanji, Ship's Cook of the Straw Hat Pirates</p>
+        <p className="text-blue-600 font-medium">— Sanji</p>
       </motion.div>
     </motion.div>
   );
