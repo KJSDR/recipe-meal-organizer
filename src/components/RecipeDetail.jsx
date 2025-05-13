@@ -50,7 +50,7 @@ const RecipeDetail = () => {
     );
   }
   
-  // Check if this is a user recipe (can be edited/deleted)
+  // Check if this is user recipe (can be edited/deleted)
   const isUserRecipe = userRecipes.some(r => r.id === id);
   
   // Handle delete

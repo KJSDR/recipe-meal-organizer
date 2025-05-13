@@ -36,7 +36,7 @@ export const fetchRecipes = createAsyncThunk(
 const initialState = {
   items: [],
   userRecipes: [],
-  status: 'idle', // 'idle' | 'loading' | 'succeeded' | 'failed'
+  status: 'idle',
   error: null
 };
 

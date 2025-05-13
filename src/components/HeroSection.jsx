@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const HeroSection = () => {
   return (
     <div className="hero-section w-full mx-auto max-w-7xl flex items-center justify-center flex-col">
-      {/* Hero background image - use a Sanji image URL */}
+      {/* Hero background */}
       <div className="w-full flex justify-center">
         <img 
           src="https://i.pinimg.com/originals/2d/8f/99/2d8f99a7e3e820202bcd78d686c32f04.gif" 

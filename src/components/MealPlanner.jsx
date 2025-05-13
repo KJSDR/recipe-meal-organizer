@@ -1,4 +1,3 @@
-// src/components/MealPlanner.jsx
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -34,7 +33,7 @@ const MealPlanner = () => {
     }
   };
   
-  // Remove a recipe from the meal plan
+  // Remove a recipe from plan
   const handleRemoveRecipe = (day, mealType) => {
     dispatch(removeFromMealPlan({ day, mealType }));
   };
@@ -202,7 +201,7 @@ const MealPlanner = () => {
         </div>
       </motion.div>
       
-      {/* Sanji Quote */}
+      {/* Sanji Quotes just for extra stuff */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
